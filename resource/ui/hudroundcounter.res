@@ -48,20 +48,60 @@
 		}
 	}	
 
-	"Background"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
+//	"Background"
+//	{
+//		"ControlName"	"ScalableImagePanel"
+//		"fieldName"		"Background"
+//		"xpos"			"c-40"
+//		"ypos"			"-5"
+//		"zpos"			"-1"
+//		"wide"			"80"
+//		"tall"			"31"
+//
+//		"proportionaltoparent"	"1"
+//
+//		"image"					"../hud/color_panel_brown"
+//		"src_corner_height"		"32"
+//		"src_corner_width"		"32"
+//		"draw_corner_width"		"4"
+//		"draw_corner_height"	"4"
+//	}
 
-		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
-			
-		"image"					"../hud/comp_round_timer"
-		"scaleimage"			"1"
-	}
+//	"BackgroundBlue"
+//	{
+//		"ControlName"	"ScalableImagePanel"
+//		"fieldName"		"BackgroundBlue"
+//		"xpos"			"c-39"
+//		"ypos"			"-5"
+//		"zpos"			"-1"
+//		"wide"			"39"
+//		"tall"			"17"
+//
+//		"proportionaltoparent"	"1"
+//
+//		"image"					"../hud/color_panel_blu"
+//		"src_corner_height"		"32"
+//		"src_corner_width"		"32"
+//		"draw_corner_width"		"0"
+//		"draw_corner_height"	"0"
+//	}
+
+//	"BackgroundRed"
+//	{
+//		"ControlName"	"ScalableImagePanel"
+//		"fieldName"		"BackgroundRed"
+//		"xpos"			"c0"
+//		"ypos"			"-5"
+//		"zpos"			"-1"
+//		"wide"			"39"
+//		"tall"			"17"
+//
+//		"proportionaltoparent"	"1"
+//
+//		"image"					"../hud/color_panel_red"
+//		"src_corner_height"		"32"
+//		"src_corner_width"		"32"
+//		"draw_corner_width"		"0"
+//		"draw_corner_height"	"0"
+//	}
 }

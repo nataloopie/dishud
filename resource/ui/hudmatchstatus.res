@@ -207,19 +207,49 @@
 		"enabled"		"1"
 	}	
 
-	"BGFrame"
+	"BGFrameBlue"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"BGFrameBlue"
+		"xpos"				"c43"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
+		"wide"				"139"
 		"tall"				"28"
 		"visible"			"0"
 
-		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"proportionaltoparent"	"1"
+
+		"image"					"../hud/color_panel_brown"
+		"src_corner_height"		"32"
+		"src_corner_width"		"32"
+		"draw_corner_width"		"4"
+		"draw_corner_height"	"4"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+
+	"BGFrameRed"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"BGFrameRed"
+		"xpos"				"c-180"
+		"ypos"				"-5"
+		"zpos"				"0"
+		"wide"				"139"
+		"tall"				"28"
+		"visible"			"0"
+
+		"proportionaltoparent"	"1"
+
+		"image"					"../hud/color_panel_brown"
+		"src_corner_height"		"32"
+		"src_corner_width"		"32"
+		"draw_corner_width"		"4"
+		"draw_corner_height"	"4"
 
 		if_match
 		{
@@ -301,16 +331,16 @@
 
 		if_match
 		{
-			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			//"xpos"					"cs-0.5"
+			//"wide"					"130"
+			//"ypos_minmode"			"0"
+			//"delta_item_x"			"35"
+			//"delta_item_start_y"	"12"
+			//"delta_item_end_y"		"50"
+			//"PositiveColor"			"0 255 0 255"
+			//"NegativeColor"			"255 0 0 255"
+			//"delta_lifetime"		"1.5"
+			//"delta_item_font"		"HudFontMediumSmall"
 		}
 		
 		"TimePanelValue"
@@ -341,15 +371,15 @@
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
+				//"proportionaltoparent"	"1"
 
-				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				//"xpos"			"cs-0.5"
+				//"ypos"			"12"
+				//"ypos_minmode"	"12"
+				//"tall"			"10"
+				//"font"			"HudFontSmall"
+				//"font_minmode"	"HudFontSmall"
+				//"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}

@@ -23,7 +23,7 @@
 
 		if_match
 		{
-			"visible"	"0"
+			//"visible"	"0"
 		}
 	}
 	"TimePanelProgressBar"
@@ -53,7 +53,7 @@
 
 		if_match
 		{
-			"visible"	"0"
+			//"visible"	"0"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -87,14 +87,14 @@
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"p1"
+			//"font"					"HudFontSmallestBold"
+			//"font_hidef"			"HudFontSmallestBold"
+			//"font_lodef"			"HudFontSmallestBold"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -117,7 +117,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			//"wide"	"0"
 		}
 	}
 	"OvertimeLabel"
@@ -151,14 +151,14 @@
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"p1"
+			//"font"					"HudFontSmallestBold"
+			//"font_hidef"			"HudFontSmallestBold"
+			//"font_lodef"			"HudFontSmallestBold"
 		}
 	}			
 	"OvertimeBG"
@@ -181,7 +181,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			//"wide"	"0"
 		}
 	}
 	"SuddenDeathLabel"
@@ -215,14 +215,14 @@
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"p1"
+			//"font"					"HudFontSmallestBold"
+			//"font_hidef"			"HudFontSmallestBold"
+			//"font_lodef"			"HudFontSmallestBold"
 		}
 	}			
 	"SuddenDeathBG"
@@ -245,7 +245,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			//"wide"	"0"
 		}
 	}	
 	"SetupLabel"
@@ -280,14 +280,14 @@
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"p1"
+			//"font"					"HudFontSmallestBold"
+			//"font_hidef"			"HudFontSmallestBold"
+			//"font_lodef"			"HudFontSmallestBold"
 		}
 	}	
 	"SetupBG"
@@ -310,7 +310,7 @@
 
 		if_match
 		{
-			"wide"	"0"
+			//"wide"	"0"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -345,14 +345,14 @@
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"p1"
+			//"font"					"HudFontSmallestBold"
+			//"font_hidef"			"HudFontSmallestBold"
+			//"font_lodef"			"HudFontSmallestBold"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
@@ -375,7 +375,7 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			//"wide"	"0"
 		}	
 	}
 }
