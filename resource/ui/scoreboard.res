@@ -30,7 +30,7 @@
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"-4"
 		"ypos"			"29"
-		"wide"			"327"
+		"wide"			"328"
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -95,9 +95,9 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"317"
+		"xpos"			"316"
 		"ypos"			"29"
-		"wide"			"327"
+		"wide"			"328"
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -105,6 +105,10 @@
 		"enabled"		"1"
 		"image"			"../hud/score_panel_red_bg"
 		"scaleImage"		"1"
+
+		// 6v6 scoreboard
+		"xpos_minmode"		"-4"
+		"ypos_minmode"		"226"
 
 		if_mvm
 		{
@@ -126,15 +130,19 @@
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
 
+		// 6v6 scoreboard
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"212"
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"RedLeaderAvatar"
+	"RedLeaderAvatar2"
 	{
 		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"RedLeaderAvatar"
+		"fieldName"		"RedLeaderAvatar2"
 		"xpos"			"580"
 		"ypos"			"36"
 		"zpos"			"5"
@@ -145,6 +153,10 @@
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
+
+		// 6v6 scoreboard
+		"xpos_minmode"		"16"
+		"ypos_minmode"		"233"
 	}
 	"RedLeaderAvatarBG"
 	{
@@ -155,9 +167,13 @@
 		"zpos"			"4"
 		"wide"			"49"
 		"tall"			"49"
-		"visible"		"0"
+		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"117 107 94 255"
+
+		// 6v6 scoreboard
+		"xpos_minmode"		"14"
+		"ypos_minmode"		"231"
 	}
 	"MainBG"
 	{
@@ -174,12 +190,62 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
+		// 6v6 Scoreboard
+		"wide_minmode"		"320"
+		"tall_minmode"		"136"
+
 		if_mvm
 		{
 			"ypos"			"0"
 			"tall"			"448"
 		}
 	}							
+	"MainBG2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MainBG2"
+		"xpos"			"0"
+		"ypos"			"275"
+		"zpos"			"-1"
+		"wide"			"320"
+		"tall"			"136"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"border"		"TFThinLineBorder"
+
+		// 6v6 scoreboard
+		"visible_minmode"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"MainBG3"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MainBG3"
+		"xpos"			"320"
+		"ypos"			"64"
+		"zpos"			"-1"
+		"wide"			"320"
+		"tall"			"320"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"border"		"TFThinLineBorder"
+
+		// 6v6 Scoreboard
+		"visible_minmode"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -209,7 +275,7 @@
 		"font"			"ScoreboardTeamScoreNew"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"212"
+		"xpos"			"213"
 		"ypos"			"32" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -232,7 +298,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"213"
+		"xpos"			"214"
 		"ypos"			"33" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -307,6 +373,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		// 6v6 scoreboard
+		"xpos_minmode"		"291"
+		"ypos_minmode"		"229"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -330,6 +400,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		// 6v6 scoreboard
+		"xpos_minmode"		"292"
+		"ypos_minmode"		"230"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -351,6 +425,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		// 6v6 scoreboard
+		"xpos_minmode"		"-31"
+		"ypos_minmode"		"259"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -384,7 +462,7 @@
 		"fieldName"		"TimerBG"
 		"xpos"			"280"
 		"ypos"			"-3"
-		"zpos"			"-1"
+		"zpos"			"0"
 		"wide"			"80"
 		"tall"			"43"
 		"autoResize"	"0"
@@ -505,6 +583,9 @@
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
+		// 6v6 Scoreboard
+		"tall_minmode"		"129"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -528,6 +609,11 @@
 		"linegap"		"2"
 		"fgcolor"		"red"
 		//"show_columns"	"1"
+
+		// 6v6 Scoreboard
+		"tall_minmode"		"129"
+		"xpos_minmode"		"5"
+		"ypos_minmode"		"279"
 
  		if_mvm
  		{
@@ -572,7 +658,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		// 6v6 Scoreboard
+		"xpos_minmode"		"325"
+		"ypos_minmode"		"380"
+
 		if_mvm
 		{
 			"ypos"		"428"
@@ -594,7 +684,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		// 6v6 Scoreboard
+		"xpos_minmode"		"325"
+		"ypos_minmode"		"390"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -606,7 +700,7 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"4"
 		"ypos"			"335"
-		"zpos"			"-2"
+		"zpos"			"1"
 		"wide"			"633"
 		"tall"			"72"
 		"autoResize"	"0"
@@ -616,7 +710,12 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
-		
+
+		// 6v6 scoreboard
+		"ypos_minmode"		"308"
+		"xpos_minmode"		"324"
+		"wide_minmode"		"313"
+
 		if_mvm
 		{
 			"visible"		"1"
@@ -636,7 +735,10 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
-		
+
+		// 6v6 scoreboard
+		"wide_minmode"		"0"
+
 		if_mvm
 		{
 			"visible"		"1"
@@ -663,6 +765,13 @@
 		"allow_manip"		"1"
 
 		"disable_speak_event"	"1"
+		
+		// 6v6 scoreboard
+		"xpos_minmode"			"324"
+		"ypos_minmode"			"0"
+		"zpos_minmode"			"0"	
+		"wide_minmode"			"313"
+		"tall_minmode"			"381"
 
 		if_mvm
 		{
@@ -705,6 +814,12 @@
 				"origin_x"		"105"
 				"origin_y"		"4"
 				"origin_z"		"-82"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"angles_y_minmode"	"165"
+				"origin_z_minmode"	"-55"
+				"origin_y_minmode"	"-1"
 			}
 			"Sniper"
 			{
@@ -715,6 +830,11 @@
 				"origin_x"		"130"
 				"origin_y"		"-3"
 				"origin_z"		"-97"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"angles_y_minmode"	"165"
+				"origin_z_minmode"	"-65"
 			}
 			"Soldier"
 			{
@@ -725,6 +845,10 @@
 				"origin_x"		"145"
 				"origin_y"		"-5"
 				"origin_z"		"-90"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"origin_z_minmode"	"-60"
 			}
 			"Demoman"
 			{
@@ -735,6 +859,10 @@
 				"origin_x"		"138"
 				"origin_y"		"-4"
 				"origin_z"		"-93"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"-5"
+				"origin_z_minmode"	"-60"
 			}
 			"Medic"
 			{
@@ -745,6 +873,11 @@
 				"origin_x"		"150"
 				"origin_y"		"-5"
 				"origin_z"		"-96"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"angles_y_minmode"	"215"
+				"origin_z_minmode"	"-65"
 			}
 			"Heavy"
 			{
@@ -755,6 +888,11 @@
 				"origin_x"		"200"
 				"origin_y"		"0"
 				"origin_z"		"-102"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"angles_y_minmode"	"170"
+				"origin_z_minmode"	"-60"
 			}
 			"Pyro"
 			{
@@ -765,6 +903,13 @@
 				"origin_x"		"175"
 				"origin_y"		"-5"
 				"origin_z"		"-90"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"angles_y_minmode"	"210"
+				"origin_x_minmode"	"150"
+				"origin_y_minmode"	"4"
+				"origin_z_minmode"	"-60"
 			}
 			"Spy"
 			{
@@ -775,6 +920,10 @@
 				"origin_x"		"160"
 				"origin_y"		"0"
 				"origin_z"		"-95"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"origin_z_minmode"	"-60"
 			}
 			"Engineer"
 			{
@@ -785,6 +934,11 @@
 				"origin_x"		"140"
 				"origin_y"		"-2"
 				"origin_z"		"-82"
+
+				// 6v6 scoreboard
+				"angles_x_minmode"	"0"
+				"origin_y_minmode"	"-5"
+				"origin_z_minmode"	"-60"
 			}
 		}
 	}
@@ -794,7 +948,7 @@
 		"fieldName"		"PlayerNameBG"
 		"xpos"			"105"
 		"ypos"			"335"
-		"zpos"			"-1"
+		"zpos"			"2"
 		"wide"			"485"
 		"tall"			"29"
 		"autoResize"	"0"
@@ -802,6 +956,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
+		
+		// 6v6 scoreboard
+		"xpos_minmode"		"330"
+		"ypos_minmode"		"308"
+		"wide_minmode"		"300"
 		
 		if_mvm
 		{
@@ -824,7 +983,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		// 6v6 scoreboard
+		"xpos_minmode"			"330"
+		"ypos_minmode"			"313"
+		"textAlignment_minmode"	"center"
+
 		if_mvm
 		{
 			"visible"		"1"
@@ -848,7 +1012,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		// 6v6 scoreboard
+		"xpos_minmode"		"126"
+		"ypos_minmode"		"43"
+		"textAlignment"		"west"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -871,6 +1040,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+
+		// 6v6 scoreboard
+		"xpos_minmode"			"326"
+		"ypos_minmode"			"53"
+		"textAlignment_minmode"	"west"
 
 		if_mvm
 		{
@@ -1146,7 +1320,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		// 6v6 scoreboard
+		"ypos_minmode"		"331"
+
 		if_mvm
 		{
 			"visible"		"1"
@@ -1169,6 +1346,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"280"
 		}						
 		"DeathsLabel"
 		{
@@ -1186,6 +1366,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"280"
 		}						
 		"AssistsLabel"
 		{
@@ -1203,6 +1386,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"280"
 		}
 		"DestructionLabel"
 		{
@@ -1220,6 +1406,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"280"
 		}												
 		"Kills"
 		{
@@ -1237,6 +1426,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"380"
 		}						
 		"Deaths"
 		{
@@ -1254,6 +1446,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"380"
 		}	
 		"GameType"
 		{
@@ -1289,6 +1484,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"380"
 		}						
 		"Destruction"
 		{
@@ -1306,6 +1504,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"380"
 		}						
 		"CapturesLabel"
 		{
@@ -1323,6 +1524,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"350"
 		}						
 		"DefensesLabel"
 		{
@@ -1340,6 +1544,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"350"
 		}						
 		"DominationLabel"
 		{
@@ -1357,7 +1564,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"350"
+		}
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1374,7 +1584,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"350"
+		}
 		"Captures"
 		{
 			"ControlName"		"CExLabel"
@@ -1391,6 +1604,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"455"
 		}						
 		"Defenses"
 		{
@@ -1408,6 +1624,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"455"
 		}						
 		"Domination"
 		{
@@ -1425,6 +1644,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"455"
 		}						
 		"Revenge"
 		{
@@ -1442,6 +1664,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"455"
 		}						
 		"HealingLabel"
 		{
@@ -1459,7 +1684,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"420"
+		}
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1476,7 +1704,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"420"
+		}
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1493,6 +1724,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"420"
 		}						
 		"HeadshotsLabel"
 		{
@@ -1510,7 +1744,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"420"
+		}
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
@@ -1527,6 +1764,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"520"
 		}						
 		"Invuln"
 		{
@@ -1544,6 +1784,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"520"
 		}						
 		"Teleports"
 		{
@@ -1561,6 +1804,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"520"
 		}						
 		"Headshots"
 		{
@@ -1578,7 +1824,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"520"
+		}
 		"BackstabsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1595,6 +1844,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"495"
 		}
 		"Backstabs"
 		{
@@ -1612,6 +1864,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"595"
 		}		
 		"BonusLabel"
 		{
@@ -1630,6 +1885,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"495"
 		}
 		"Bonus"
 		{
@@ -1647,6 +1905,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"595"
 		}
 		"SupportLabel"
 		{
@@ -1664,6 +1925,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"495"
 		}
 		"Support"
 		{
@@ -1681,6 +1945,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"595"
 		}
 		"DamageLabel"
 		{
@@ -1698,6 +1965,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"495"
 		}
 		"Damage"
 		{
@@ -1715,6 +1985,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			// 6v6 scoreboard
+			"xpos_minmode"		"595"
 		}
 	}
 
