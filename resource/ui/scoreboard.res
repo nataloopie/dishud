@@ -36,7 +36,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg_solid"
+		"image"			"../hud/score_panel_blue_bg"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -103,7 +103,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_red_bg_solid"
+		"image"			"../hud/score_panel_red_bg"
 		"scaleImage"		"1"
 
 		if_mvm
@@ -164,10 +164,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
-		"ypos"			"38"
+		"ypos"			"78"
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"			"380"
+		"tall"			"333"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -364,9 +364,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
-		"xpos_hidef"	"31"
 		"ypos"			"60"
-		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -493,7 +491,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"5"
-		"ypos"			"87"
+		"ypos"			"82"
 		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"247"
@@ -517,7 +515,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"325"
-		"ypos"			"87"
+		"ypos"			"82"
 		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"247"
@@ -566,7 +564,7 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"327"
+		"ypos"			"321"
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -588,7 +586,7 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"318"
+		"ypos"			"312"
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -607,7 +605,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"4"
-		"ypos"			"342"
+		"ypos"			"335"
 		"zpos"			"-2"
 		"wide"			"633"
 		"tall"			"72"
@@ -622,15 +620,15 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"372"
 		}
 	}
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
-		"xpos"			"22"
-		"xpos_lodef"	"12"
-		"ypos"			"320"
+		"xpos"			"15"
+		"ypos"			"315"
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
@@ -642,6 +640,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"350"
 		}
 	}
 	"classmodelpanel"
@@ -650,7 +649,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"4"
-		"ypos"			"215"
+		"ypos"			"207"
 		"zpos"			"10"		
 		"wide"			"100"
 		"tall"			"200"
@@ -668,8 +667,12 @@
 		if_mvm
 		{
 			"visible"		"0"
+			"xpos"			"-10"
+			"ypos"			"185"
+			"wide"			"130"
+			"tall"			"260"
 		}
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -790,7 +793,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"PlayerNameBG"
 		"xpos"			"105"
-		"ypos"			"342"
+		"ypos"			"335"
 		"zpos"			"-1"
 		"wide"			"485"
 		"tall"			"29"
@@ -813,7 +816,7 @@
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"347"
+		"ypos"			"340"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
@@ -826,6 +829,7 @@
 		{
 			"visible"		"1"
 			"wide"			"175"
+			"ypos"			"377"
 		}
 	}
 	"ServerLabelNew"
@@ -836,7 +840,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"east"
 		"xpos"			"315"
-		"ypos"			"345"
+		"ypos"			"338"
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
@@ -858,7 +862,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
  		"xpos"			"315"
-		"ypos"			"355"
+		"ypos"			"348"
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
@@ -923,7 +927,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"ypos"			"365"
+		"ypos"			"358"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -1134,7 +1138,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"365"
+		"ypos"			"358"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"
@@ -1146,6 +1150,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"395"
 		}
 
 		"KillsLabel"

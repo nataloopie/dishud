@@ -48,60 +48,57 @@
 		}
 	}	
 
-//	"Background"
-//	{
-//		"ControlName"	"ScalableImagePanel"
-//		"fieldName"		"Background"
-//		"xpos"			"c-40"
-//		"ypos"			"-5"
-//		"zpos"			"-1"
-//		"wide"			"80"
-//		"tall"			"31"
-//
-//		"proportionaltoparent"	"1"
-//
-//		"image"					"../hud/color_panel_brown"
-//		"src_corner_height"		"32"
-//		"src_corner_width"		"32"
-//		"draw_corner_width"		"4"
-//		"draw_corner_height"	"4"
-//	}
+	"Background"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Background"
+		"xpos"			"110"
+		"ypos"			"-15"
+		"zpos"			"-1"
+		"wide"			"81"
+		"tall"			"43"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"TFThinLineBorder"
+	}
 
-//	"BackgroundBlue"
-//	{
-//		"ControlName"	"ScalableImagePanel"
-//		"fieldName"		"BackgroundBlue"
-//		"xpos"			"c-39"
-//		"ypos"			"-5"
-//		"zpos"			"-1"
-//		"wide"			"39"
-//		"tall"			"17"
-//
-//		"proportionaltoparent"	"1"
-//
-//		"image"					"../hud/color_panel_blu"
-//		"src_corner_height"		"32"
-//		"src_corner_width"		"32"
-//		"draw_corner_width"		"0"
-//		"draw_corner_height"	"0"
-//	}
+	"BackgroundBlue"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"BackgroundBlue"
+		"xpos"			"c-36"
+		"ypos"			"-5"
+		"zpos"			"-1"
+		"wide"			"36"
+		"tall"			"17"
 
-//	"BackgroundRed"
-//	{
-//		"ControlName"	"ScalableImagePanel"
-//		"fieldName"		"BackgroundRed"
-//		"xpos"			"c0"
-//		"ypos"			"-5"
-//		"zpos"			"-1"
-//		"wide"			"39"
-//		"tall"			"17"
-//
-//		"proportionaltoparent"	"1"
-//
-//		"image"					"../hud/color_panel_red"
-//		"src_corner_height"		"32"
-//		"src_corner_width"		"32"
-//		"draw_corner_width"		"0"
-//		"draw_corner_height"	"0"
-//	}
+		"proportionaltoparent"	"1"
+
+		"image"					"../hud/color_panel_blu"
+		"src_corner_height"		"32"
+		"src_corner_width"		"32"
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"
+	}
+
+	"BackgroundRed"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"BackgroundRed"
+		"xpos"			"c0"
+		"ypos"			"-5"
+		"zpos"			"-1"
+		"wide"			"38"
+		"tall"			"17"
+
+		"proportionaltoparent"	"1"
+
+		"image"					"../hud/color_panel_red"
+		"src_corner_height"		"32"
+		"src_corner_width"		"32"
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"
+	}
 }
