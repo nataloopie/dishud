@@ -350,7 +350,12 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
+		// 6v6 scoreboard
+		"textAlignment_minmode"		"west"
+		"xpos_minmode"				"80"
+		"ypos_minmode"				"238"
+
 		if_mvm
 		{
 			"visible"		"0"
