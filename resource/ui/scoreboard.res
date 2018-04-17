@@ -1319,7 +1319,7 @@
 		"xpos"			"0"
 		"ypos"			"358"
 		"zpos"			"3"
-		"wide"			"600"
+		"wide"			"640"
 		"tall"			"448"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1531,7 +1531,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"350"
+			"xpos_minmode"		"345"
 		}						
 		"DefensesLabel"
 		{
@@ -1551,7 +1551,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"350"
+			"xpos_minmode"		"345"
 		}						
 		"DominationLabel"
 		{
@@ -1571,7 +1571,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"350"
+			"xpos_minmode"		"345"
 		}
 		"RevengeLabel"
 		{
@@ -1591,7 +1591,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"350"
+			"xpos_minmode"		"345"
 		}
 		"Captures"
 		{
@@ -1611,7 +1611,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"455"
+			"xpos_minmode"		"450"
 		}						
 		"Defenses"
 		{
@@ -1631,7 +1631,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"455"
+			"xpos_minmode"		"450"
 		}						
 		"Domination"
 		{
@@ -1651,7 +1651,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"455"
+			"xpos_minmode"		"450"
 		}						
 		"Revenge"
 		{
@@ -1671,7 +1671,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"455"
+			"xpos_minmode"		"450"
 		}						
 		"HealingLabel"
 		{
@@ -1680,7 +1680,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
+			"xpos"			"325"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1691,7 +1691,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"420"
+			"xpos_minmode"		"425"
 		}
 		"InvulnLabel"
 		{
@@ -1700,7 +1700,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
+			"xpos"			"325"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1711,7 +1711,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"420"
+			"xpos_minmode"		"425"
 		}
 		"TeleportsLabel"
 		{
@@ -1720,7 +1720,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
+			"xpos"			"325"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1731,7 +1731,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"420"
+			"xpos_minmode"		"425"
 		}						
 		"HeadshotsLabel"
 		{
@@ -1740,7 +1740,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
+			"xpos"			"325"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1751,7 +1751,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"420"
+			"xpos_minmode"		"425"
 		}
 		"Healing"
 		{
@@ -1771,7 +1771,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"520"
+			"xpos_minmode"		"525"
 		}						
 		"Invuln"
 		{
@@ -1791,7 +1791,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"520"
+			"xpos_minmode"		"525"
 		}						
 		"Teleports"
 		{
@@ -1811,7 +1811,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"520"
+			"xpos_minmode"		"525"
 		}						
 		"Headshots"
 		{
@@ -1831,7 +1831,7 @@
 			"enabled"		"1"
 
 			// 6v6 scoreboard
-			"xpos_minmode"		"520"
+			"xpos_minmode"		"525"
 		}
 		"BackstabsLabel"
 		{
