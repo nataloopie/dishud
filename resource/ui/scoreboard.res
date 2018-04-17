@@ -1019,9 +1019,9 @@
 		"enabled"		"1"
 
 		// 6v6 scoreboard
-		"xpos_minmode"		"126"
-		"ypos_minmode"		"43"
-		"textAlignment"		"west"
+		"xpos_minmode"			"325"
+		"ypos_minmode"			"43"
+		"textAlignment_minmode"	"west"
 
 		if_mvm
 		{
@@ -1047,7 +1047,7 @@
 		"fgcolor"		"236 227 203 255"
 
 		// 6v6 scoreboard
-		"xpos_minmode"			"326"
+		"xpos_minmode"			"325"
 		"ypos_minmode"			"53"
 		"textAlignment_minmode"	"west"
 
