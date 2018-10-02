@@ -724,21 +724,23 @@
 		"tall" "400"
 
 		"item_wide"	"135"
-		
-		"show_avatar"		"0"
-		
+
+		"show_friend"		"0"
+
+		"show_avatar"		"1"
+		"avatar_xpos"		"16"
+		"avatar_ypos"		"1"
+		"avatar_tall"		"14"
+		"avatar_wide"		"14"
+
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
-		
-		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-		
+
+		"show_voice_icon"	"0"
+
 		"text_xpos"			"33"
 	}
 
